@@ -48,5 +48,6 @@ node server.js   # serves the browser client at / and the API under /api
 - `server.js` - the whole server: engine, lobby, API, bots, turn timer, and the browser client in one file.
 - `engine.js` - the game engine on its own.
 - `simulate.js` - bot-vs-bot batch simulator used for the balance checks.
+- `sample-bot.js` - a basic agent that plays a full match over the HTTP API (node sample-bot.js [baseUrl] [name]).
 - `API.md` - the agent API reference.
 - `INVALID-MOVES.md` - every move error the server can return, and what it means.
